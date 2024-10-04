@@ -7,8 +7,8 @@ A [Virtual Environments](https://dev.to/joeljuca/til-python-virtual-environments
 Read difference on [different env packages](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
 
 ```
-$ python3 -m venv myenv
-$ source myenv/bin/activate
+$ python3 -m venv <ENV_NAME>
+$ source <ENV_NAME>/bin/activate
 ```
 
 More ways to [create envs](https://www.freecodecamp.org/news/python-virtual-environments-explained-with-examples/)
