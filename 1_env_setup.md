@@ -1,6 +1,4 @@
-# Env setup
-
-## Virtual env
+# Virtual env
 
 A [Virtual Environments](https://dev.to/joeljuca/til-python-virtual-environments-and-venv-c8e) in Python is a self-contained directory that contains a Python installation for a particular version of Python. It tricks both Python and pip to install and load packages into a local directory (aka.: your project's directory) instead of global-wide or user-wide directories. It allows you to work on different projects with the same dependencies but different versions without conflicts.
 
@@ -15,8 +13,12 @@ More ways to [create envs](https://www.freecodecamp.org/news/python-virtual-envi
 
 Difference between [virtual env and npm](https://stackoverflow.com/questions/59444346/is-npm-in-node-like-virtualenv-in-django)
 
-## Upgrade pip
+# Upgrade pip
 
 ```
 python3 -m pip install --upgrade pip
 ```
+
+# .gitignore best practice
+
+* [github gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore)
