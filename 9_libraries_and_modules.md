@@ -48,6 +48,9 @@ Later on, when you move your Python application to a new virtualenv, a new compu
 
 ```
 pip install -r requirements.txt
+# or
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
 ## Install libraries with pip
